@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lista{
+    list-style: none;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.background{
+    cursor: pointer;
+    border: 1px solid black;
+    padding-left: 40px;
+    line-height: 40px;
+    height: 40px;
+    background-image: url(menu.png);
+    background-repeat: no-repeat;
+}
+li:hover{
+    color: blanchedalmond;
+    background-position: 100%;
+}
+
+.clicado{
+    color: red;
+    font-weight: 900;
+    background-position: 100%;
+}
